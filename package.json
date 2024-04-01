@@ -1,0 +1,20 @@
+{
+  "name": "stomple",
+  "version": "1.0.0",
+  "description": "Stomple game",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js"
+  },
+  "author": "nanairo.puppeteer@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "pixi.js": "^8.0.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
