@@ -2,6 +2,8 @@ import { Container, Graphics } from "pixi.js";
 import Config from "../config";
 import Player from "../model/Player";
 
+// TODO: Добавить анимацию
+
 class PlayerStomperView extends Container
 {
     private player: Player;

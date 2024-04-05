@@ -35,10 +35,9 @@ class PlayersManager
     private static onEndGame()
     {
         PlayersManager.activePlayers--;
-        if (PlayersManager.activePlayers == 1)
+        if (PlayersManager.activePlayers <= 1)
         {
-            PlayersManager.currentPlayerId = (PlayersManager.currentPlayerId + 1) % PlayersManager.controllers.length;
-            alert(Config.colors[PlayersManager.currentPlayerId] + " player won!");
+            // TODO: Объявить победителя
             return;
         }
         PlayersManager.onEndTurn();
